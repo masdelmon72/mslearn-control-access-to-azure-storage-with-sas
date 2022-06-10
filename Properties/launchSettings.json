@@ -1,7 +1,7 @@
-﻿{
+{
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:50160",
       "sslPort": 44367
@@ -12,7 +12,8 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_USERNAME": "massimo.delmonaco@psen.wbaoneit.com"
       }
     },
     "test": {
@@ -20,7 +21,8 @@
       "launchBrowser": true,
       "applicationUrl": "https://localhost:8001;http://localhost:8000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_USERNAME": "massimo.delmonaco@psen.wbaoneit.com"
       }
     }
   }

@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/cloudshell1432727756",
+      "type": "storage.azure",
+      "connectionId": "StorageAccount/ConnectionString",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}
